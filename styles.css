@@ -21,14 +21,28 @@ html, body, p {
   font-size: 16px;
 }
 
+body {
+  padding-bottom: 50px;
+}
+
 h1, h4 {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #800000;
 }
 
 figcaption {
   text-align: center;
   display: block;
 }
+
+/*
+.right {
+  text-align: right;
+} */
 
 div.hotspot {
   position: relative;
@@ -64,6 +78,7 @@ div.modal div.inner {
 .text {
   max-width: 600px;
   margin: 0 auto;
+  padding: 1em;
 }
 
 .spot {
