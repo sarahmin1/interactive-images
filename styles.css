@@ -18,15 +18,22 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body, p {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
-  font-size: 16px;
+  font-size: 22px;
 }
 
 body {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
-h1, h4 {
+h1, h3, h4 {
   text-align: center;
+  display: block;
+}
+
+h4 {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 a {
@@ -35,8 +42,15 @@ a {
 }
 
 figcaption {
-  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+  text-align: left;
   display: block;
+  color: #716f6f;
+}
+
+strong {
+  color: black;
 }
 
 /*
