@@ -16,13 +16,13 @@ You will find this is far easier than the opposite task of using CSS to cram you
   box-sizing: border-box;
 }
 
-html, body, p {
+html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
   font-size: 22px;
 }
 
 body {
-  padding-bottom: 100px;
+  padding-bottom: 75px;
 }
 
 h1, h3, h4 {
@@ -53,11 +53,6 @@ strong {
   color: black;
 }
 
-/*
-.right {
-  text-align: right;
-} */
-
 div.hotspot {
   position: relative;
   max-width: 980px;
@@ -84,9 +79,12 @@ div.modal.active {
 }
 
 div.modal div.inner {
-  height: 100% width: 100%;
-  background-color: #FFFFFF;
-  padding: 1em;
+  height: 100%;
+  width: 100%;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: left;
 }
 
 .text {
@@ -104,33 +102,39 @@ div.modal div.inner {
 }
 
 #chopstick {
-  right: 17%;
+  right: 12%;
   top: 60%;
-  background-color: #d3d3d3;
+  background-color: #d3d3d3d9;
 }
 
 #hat {
   right: 70%;
   top: 40%;
-  background-color: #663399;
+  background-color: #663399bd;
 }
 
 #man {
   right: 63%;
   top: 44%;
-  background-color: #800080;
+  background-color: #800080d1;
 }
 
 #kimchi {
   right: 38%;
   top: 42%;
-  background-color: #ff0000;
+  background-color: #ff0000b8;
 }
 
 #cucumbers {
   right: 50%;
   top: 52%;
-  background-color: #008000;
+  background-color: #008000d6;
+}
+
+#spinach {
+  right: 15%;
+  top: 4%;
+  background-color: #6c0080bd;
 }
 
 /* Tablet/Desktop overrides */
@@ -138,6 +142,10 @@ div.modal div.inner {
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
+
+/* div.modal div.inner {
+  padding: 225px;
+} */
 
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
